@@ -1,5 +1,8 @@
 # llmGeneratedChatApplication
 
+Currently only supported to one line questions.<br>
+<mark>WILL BREAK FOR PARAGRAPH ANSWERS.</mark>
+
 ## Compile cpp files
 ```
   g++ server.cpp -o build/server
