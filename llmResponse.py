@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-host = "127.0.0.1"
-port = 9090
+host = os.getenv('HOST')
+port = os.getenv('PORT') 
 
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
